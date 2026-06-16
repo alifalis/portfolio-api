@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Portfolio API",
+    "description": "API REST réalisée avec FastAPI pour présenter mon profil, mes projets et mes compétences.",
+    "start_year": 2026,
+    "end_year": null,
+    "technologies": ["Python", "FastAPI", "Pydantic"]
+  },
+  {
+    "title": "PrivateBee",
+    "description": "Mise en place d'un pipeline CI/CD et rédaction d'une documentation sur les règles de codage.",
+    "start_year": 2026,
+    "end_year": 2026,
+    "technologies": ["Git", "CI/CD", "Documentation"]
+  }
+]

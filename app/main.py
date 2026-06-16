@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from app.routers import projects, skills, contact
+
+from app.routers import contact, education, projects, profile, skills, experiences
 
 app = FastAPI(
     title="Portfolio API",
@@ -7,10 +8,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
-@app.get("/")
+
+@app.get("/", tags=["Home"])
 def home():
     return {
-        "message": "Bienvenue sur mon Portfolio API"
+        "message": "Bienvenue sur mon Portfolio API",
+        "documentation": "/docs"
     }
 
+
 app.include_router(contact.router)
+app.include_router(education.router)
+app.include_router(projects.router)

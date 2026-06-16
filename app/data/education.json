@@ -1,0 +1,25 @@
+[
+    {
+        "degree": "Cycle ingénieur en informatique - option informatique embarquée",
+        "institution": "CY Tech",
+        "start_year": 2022,
+        "end_year": 2026,
+        "description": "Formation en informatique embarquée",
+        "projects": [
+            {
+                "title": "PrivateBee",
+                "description": "Mise en place d'un pipeline CI/CD et documentation des règles de codage",
+                "start_year": 2026,
+                "end_year": 2026,
+                "technologies": ["Git", "CI/CD"]
+            },
+            {
+                "title": "RobAFIS",
+                "description": "Développement d'une IHM en Scala et modélisation MBSE avec Cameo",
+                "start_year": 2025,
+                "end_year": 2026,
+                "technologies": ["Scala", "Cameo", "MBSE"]
+            }
+        ]
+    }
+]

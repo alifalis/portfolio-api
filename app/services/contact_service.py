@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from app.schemas import ContactMessage
+from app.schemas.contact import ContactMessage
 
 
 FILE_PATH = Path(__file__).resolve().parents[1] / "data" / "contact.json"

@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.schemas import ContactMessage
+from app.schemas.contact import ContactMessage
 from app.services.contact_service import save_contact
 
 router = APIRouter(
